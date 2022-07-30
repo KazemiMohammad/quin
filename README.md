@@ -1,8 +1,8 @@
-#MyChoices
+# MyChoices
 I use Redux because I think it is easy to debug in bug projects
 Tailwind because is light-weight
 
-#Improvments
+# Improvments
 Define path aliases
 Implements tests 
 Implement a form for selecting start and end date then load related data
