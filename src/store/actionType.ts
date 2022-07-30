@@ -1,0 +1,4 @@
+export const ActionType = {
+    ADD_LOUNCHES: 'ADD_LOUNCHES',
+    SET_SELECTED_LOUNCH:'SET_SELECTED_LOUNCH'
+}
