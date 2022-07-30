@@ -7,9 +7,10 @@ import Header from "./components/Header";
 import DefaultLayout from "./layouts/DefaultLayout";
 
 function App() {
+
   return (
     <Provider store={Store}>
-      <DefaultLayout headerContent={<Header />} bodeyContent={<Body />} />;
+      <DefaultLayout headerContent={<Header />} bodeyContent={<Body />} />
     </Provider>
   );
 }

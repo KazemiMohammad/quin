@@ -1,6 +1,5 @@
 export interface ILounch {
-    id: number,
-    lat: number,
-    lng: number,
-    name: string,
+  id: number;
+  pad: { latitude: number; longitude: number };
+  name: string;
 }
