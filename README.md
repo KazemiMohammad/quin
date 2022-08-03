@@ -1,14 +1,14 @@
-#MyChoices
-I use Redux because I think it is easy to debug in bug projects
-Tailwind because is light-weight
+# MyChoices
+## I use Redux because I think it is easy to debug in big projects
+## Tailwind because is light-weight
 
-#Improvments
-Define path aliases
-Implements tests 
-Implement a form for selecting start and end date then load related data
-Implement Loading message
-Fix issue of MarkerPin (Implement custom DivIcon)
-Move styles to CSS or StyledComponent
+# Improvments
+## Define path aliases
+## Implements tests 
+## Implement a form for selecting start and end date then load related data
+## Implement Loading message
+## Fix issue of MarkerPin (Implement custom DivIcon)
+## Move styles to CSS or StyledComponent
 
 
 # Getting Started with Create React App
