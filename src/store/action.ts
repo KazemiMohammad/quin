@@ -1,12 +1,12 @@
 import { ActionType } from "./actionType";
-import { ILounch } from "../data/lounch/types";
+import { ILaunch } from "@/data/launch/types";
 
-export const AddLounches = (payload: ILounch[]) => ({
-    type: ActionType.ADD_LOUNCHES,
+export const AddLaunches = (payload: ILaunch[]) => ({
+    type: ActionType.ADD_LAUNCHES,
     payload: payload
 })
 
-export const SetSelectedLounch = (payload: ILounch) => ({
-    type: ActionType.SET_SELECTED_LOUNCH,
+export const SetSelectedLaunch = (payload: ILaunch) => ({
+    type: ActionType.SET_SELECTED_LAUNCH,
     payload: payload
 })

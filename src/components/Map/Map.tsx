@@ -1,11 +1,11 @@
 import React from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
-import {ILounch} from'../../data/lounch/types';
+import {ILaunch} from'@/data/launch/types';
 import LocationMarker from "./LocationMarker";
 
 interface IMapProps{
-  launches:ILounch[];
+  launches:ILaunch[];
 }
 function Map({launches}:IMapProps) {
   return (

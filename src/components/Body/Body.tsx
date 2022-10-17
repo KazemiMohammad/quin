@@ -1,11 +1,11 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import Map from "../Map";
-import { MainStoreStateType } from "../../store/reducer";
+import Map from "@/components/Map";
+import { MainStoreStateType } from "@/store/reducer";
 const mapState = (state: MainStoreStateType) => {
   return {
-    launches: state.lounches,
-    selectedlaunch: state.selectedLounch,
+    launches: state.launches,
+    selectedlaunch: state.selectedLaunch,
   };
 };
 function Body() {

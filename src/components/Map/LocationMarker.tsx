@@ -1,8 +1,8 @@
 import L from "leaflet";
 import React from "react";
 import { Marker, Popup } from "react-leaflet";
-import { ILounch } from "@/data/lounch/types";
-import icon from '../../assets/icons/marker.png';
+import { ILaunch } from "@/data/launch/types";
+import icon from '@/assets/icons/marker.png';
 
 const customIcon = new L.Icon({
   iconUrl: icon,
@@ -10,14 +10,14 @@ const customIcon = new L.Icon({
 });
 
 interface ILocationMarkerProps {
-  launches: ILounch[];
+  launches: ILaunch[];
 }
 
 function LocationMarker({ launches }: ILocationMarkerProps) {
   if (launches.length) {
     return (
       <>
-        {launches.map((item: ILounch, index: number) => {
+        {launches.map((item: ILaunch, index: number) => {
           return (
             <Marker
               key={item.id + index}
